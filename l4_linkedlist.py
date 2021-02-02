@@ -12,4 +12,3 @@ def l4(number=12345):
         if i % 10 == 0:
             print("vamor por el", i+1)
     return {"number":number, "text":resp.text, 'i':i} 
-        

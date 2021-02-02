@@ -9,5 +9,3 @@ def l5():
         for chars in line_raw:
             line += chars[0]*chars[1]
         print(line)
-       
-            

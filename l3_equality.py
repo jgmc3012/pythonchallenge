@@ -7,5 +7,3 @@ def l3():
     code = ''.join(resp.text.split('\n')[23:1272])
     chars = findall('[a-z][A-Z]{3}([a-z])[A-Z]{3}[a-z]', ''.join(code))
     return ''.join(chars)
-    
-    

@@ -7,6 +7,3 @@ def l2():
     code = ''.join(resp.text.split('\n')[37:1257])
     chars = findall('[a-zA-Z]+', ''.join(code))
     return ''.join(chars)
-    
-    
-    
